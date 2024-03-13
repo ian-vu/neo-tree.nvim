@@ -863,7 +863,6 @@ local set_buffer_mappings = function(state)
             end, map_options)
           end
         else
-          log.warn("Invalid mapping for ", cmd, ": ", func)
           resolved_mappings[cmd] = "<invalid>"
         end
       end
